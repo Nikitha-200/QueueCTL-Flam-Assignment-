@@ -77,8 +77,7 @@ Gracefully stops all workers after finishing current jobs.
 queuectl status
 
 Example output:
-
-Job Status Summary:
+ Job Status Summary:
 ┌─────────┬─────────────┬───┐
 │ (index) │ state       │ c │
 ├─────────┼─────────────┼───┤
@@ -86,7 +85,6 @@ Job Status Summary:
 │ 1       │ dead        │ 1 │
 └─────────┴─────────────┴───┘
 Total Jobs: 3
-
 
 ### List Jobs by State
 
