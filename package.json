@@ -1,0 +1,17 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue system",
+  "main": "src/cli.js",
+  "bin": {
+    "queuectl": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "better-sqlite3": "^8.0.0",
+    "uuid": "^9.0.0"
+  }
+}
